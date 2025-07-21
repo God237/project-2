@@ -474,3 +474,11 @@ ul, li, a{
     text-align: center;
     margin-top: 50px;
 }
+
+.last{
+    background-color: black;
+    height: 200px;
+    width: auto;
+    color: white;
+    text-align: center;
+}
