@@ -92,7 +92,7 @@ ul, li, a{
 .body{
     background-color: wheat;
     height: 800px;
-    width: 100%;
+    width: auto;
 }
 
 .part, .joy, .thu, .korea{
@@ -103,7 +103,7 @@ ul, li, a{
 
 .main{
     background-color: black;
-    width: 100%;
+    width: auto;
     height: 500px;
 }
 
@@ -260,8 +260,6 @@ ul, li, a{
 #pic1{
     height: 125px;
     width: 125px;
-    margin-left: 300px;
-    margin-top: 20px;
 }
 
 #yon, #peer{
@@ -282,8 +280,6 @@ ul, li, a{
 #pic2{
     height: 125px;
     width: 125px;
-    margin-left: 300px;
-    margin-top: 60px;
 }
 
 .media{
@@ -304,8 +300,7 @@ ul, li, a{
 #pic3{
     height: 125px;
     width: 125px;
-    margin-left: 300px;
-    margin-top: 60px;
+   
 }
 
 .icons{
@@ -400,17 +395,60 @@ ul, li, a{
 }
 
 .partner{
-    background-color: black;
-    width: 100%;
-    height: 300px;
-    color: aliceblue;
+    background-color: rgb(49, 46, 46);
+    width: auto;
+    height: 150px;
+    color: rgb(131, 124, 124);
+    font-size: 25px;
+}
+
+#pan{
+    padding-left: 832px;
+    padding-top: 30px;
+}
+
+.logo{
+    display: flex;
+    margin-left: 590px;
+    margin-top: 35px;
+    gap: 60px;
+}
+
+#moz{
+    font-family: Zilla Slab, serif;
+}
+
+#gle{
+    font-family: Open Sans;
+}
+
+#ver{
+    font-family: Noto Sans;
+}
+
+#dau{
+    font-family: Noto, Sans-serif;
+}
+
+#air{
+    font-family: Circular, sans-serif;
+}
+
+footer{
+    background-color: #f76363;
+    height: 150px;
+}
+
+#twenty, #fgh{
+    margin-left: 700px;
+    padding-top: 20px;
 }
 
 
 /*about page style*/
 .about{
     background-color: rgba(196, 191, 191, 0.726);
-    width: 100%;
+    width: auto;
     height: 700px;
 }
 
@@ -480,4 +518,5 @@ ul, li, a{
     height: 200px;
     width: auto;
     color: white;
-}
+    text-align: center;
+} 
