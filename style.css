@@ -28,8 +28,8 @@ a, img{
     margin-left: 110px;
 }
 
-.navlink:hover{
-    color: green;
+#dot li a:hover{
+    color: #f34834;
 }
 
 ul, li, a{
@@ -251,13 +251,14 @@ ul, li, a{
 }
 
 #spel{
-    font-size: 20px;
-    font-weight: 300px;
-    margin-left: 800px;
-    margin-top: 40px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 40px;
 }
 
-#pic1{
+#pic{
     height: 125px;
     width: 125px;
 }
@@ -271,38 +272,6 @@ ul, li, a{
     font-style: italic;
 }
 
-.legal{
-    float: right;
-    margin-right: 65.6%;
-    margin-top: 20px;
-}
-
-#pic2{
-    height: 125px;
-    width: 125px;
-}
-
-.media{
-    position: absolute;
-    left: 450px;
-    top: 170%;
-}
-
-#of, #venue{
-    font-size: 10px;
-}
-
-#of{
-    color: rgba(243, 69, 6, 0.911);
-    font-style: italic;
-}
-
-#pic3{
-    height: 125px;
-    width: 125px;
-   
-}
-
 .icons{
     display: flex;
     margin-top: 60px;
@@ -310,88 +279,37 @@ ul, li, a{
     gap: 10px;
 }
 
-#found, #wiki{
-    font-size: 10px;
-}
-
-#found{
-    color: rgba(243, 69, 6, 0.911);
-    font-style: italic;
-}
-
-.lila{
-    position: absolute;
-    left: 450px;
-    top: 189%;   
-}
-
-#pic4{
-    height: 125px;
-    width: 125px;
-    position: absolute;
-    right: 40%;
-    top: 152%;
-}
-
-#web{
-    font-size: 10px;
-    margin-top: 30px;
-}
-
-.chon{
-    position: absolute;
-    right: 536px;
-    top: 152%;  
-}
-
-#pic5{
-    height: 125px;
-    width: 125px;
-    position: absolute;
-    right: 40%;
-    top: 172%;
-}
-
-#pres, #line{
-    font-size: 10px;
-}
-
-#pres{
-    color: rgba(243, 69, 6, 0.911);
-    font-style: italic;
-}
-
-.leda{
-    position: absolute;
-    right: 536px;
-    top: 172%;  
-}
-
-#pic6{
-    height: 125px;
-    width: 125px;
-    position: absolute;
-    right: 40%;
-    top: 190.6%;
-}
-
-#ex, #move{
-    font-size: 10px;
-}
-
-#ex{
-    color: rgba(243, 69, 6, 0.911);
-    font-style: italic;
-}
-
-.ryan{
-    position: absolute;
-    right: 536px;
-    top: 190%;  
-}
-
 .feature{
-    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.speaker-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shift{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.speaker-info{
+    font-size: 18px;
+    color: black;
+    font-weight: 400px;
 }
 
 .partner{
@@ -435,7 +353,7 @@ ul, li, a{
 }
 
 footer{
-    background-color: #f76363;
+    background-color: white;
     height: 150px;
 }
 
