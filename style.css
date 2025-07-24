@@ -63,7 +63,7 @@ ul, li, a{
     width: 600px;
     position: absolute;
     bottom: 185px;
-    left: 240px;
+    left: 380px;
     height: 80px;
     justify-content: center;
     font-size: 13px;
@@ -97,7 +97,7 @@ ul, li, a{
 
 .part, .joy, .thu, .korea{
     margin-bottom: 100px;
-    padding-left: 60px;
+    padding-left: 200px;
   
 }
 
@@ -256,6 +256,9 @@ ul, li, a{
    flex-direction: column;
    align-items: center;
    margin-bottom: 40px;
+   font-size: 20px;
+    color: black;
+    font-weight: 500px;
 }
 
 #pic{
@@ -265,6 +268,7 @@ ul, li, a{
 
 #yon, #peer{
     font-size: 10px;
+    gap: 5px;
 }
 
 #yon{
@@ -282,7 +286,7 @@ ul, li, a{
 .feature{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: normal;
     padding: 10px;
     max-width: 1440px;
     margin: 0 auto;
@@ -290,13 +294,13 @@ ul, li, a{
 
 .speaker-section{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 200px;
 }
 
 .shift{
     display: flex;
-    gap: 10px;
+    gap: 40px;
     width: 100%;
 }
 
